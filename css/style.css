@@ -908,7 +908,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 360px) and (max-height: 640px) {
+@media only screen and (max-width: 360px) {
   html, body, .wrapper {
     overflow-x: hidden;
     width: 100%;
@@ -1006,5 +1006,37 @@ footer {
 .sosmed > ul > li {
   margin-right: 0;
   margin-bottom: 2px;
+}
+}
+
+@media only screen and (max-width: 340px) {
+  html, body, .wrapper {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .header-jumbotron > h4 {
+    font-size: 1rem;
+  }
+  
+  .header-jumbotron > h5 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  
+  .header-jumbotron > p {
+    font-size: 0.5rem;
+  }
+
+  #contact > .wrapper > h4 {
+    font-size: 1.8rem
+  }
+
+  #contact > .wrapper > p {
+  font-size: 0.7rem;
+}
+
+  #contact > .message > h4 {
+  font-size: 1.8rem;
 }
 }
