@@ -1039,4 +1039,8 @@ footer {
   #contact > .message > h4 {
   font-size: 1.8rem;
 }
+
+  #about > .wrapper > .pict > img {
+  border: 2px solid black;
+}
 }
