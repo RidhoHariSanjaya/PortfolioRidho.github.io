@@ -1043,4 +1043,22 @@ footer {
   #about > .wrapper > .pict > img {
   border: 2px solid #fde092;
 }
+
+#statistik > .wrapper {
+  padding: 20px;
+  width: 90%;
+}
+
+  #statistik > .wrapper > div > p {
+  font-size: 1.1rem;
+}
+
+#statistik > .wrapper > div > p > i {
+  margin-right: 0.1px;
+  font-size: 1.1rem;
+}
+
+#statistik > .wrapper > div > small {
+  font-size: 0.6rem;
+}
 }
