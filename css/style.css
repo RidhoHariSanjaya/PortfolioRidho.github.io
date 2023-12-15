@@ -1009,18 +1009,18 @@ footer {
 }
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 350px) {
   html, body, .wrapper {
     overflow-x: hidden;
     width: 100%;
   }
 
   .header-jumbotron > h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   
   .header-jumbotron > h5 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 2rem;
   }
   
@@ -1042,27 +1042,6 @@ footer {
 
   #about > .wrapper > .pict > img {
   border: 2px solid #fde092;
-}
-
-#statistik > .wrapper {
-  padding: 20px;
-  width: 90%;
-  justify-content: center;
-  text-align: center;
-}
-
-  #statistik > .wrapper > div > p {
-  font-size: 1rem;
-  margin-right: 15px;
-}
-
-#statistik > .wrapper > div > p > i {
-  margin-right: 5px;
-  font-size: 1rem;
-}
-
-#statistik > .wrapper > div > small {
-  font-size: 0.5rem;
 }
 
 .footer-content {
