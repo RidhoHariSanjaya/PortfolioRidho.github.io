@@ -19,6 +19,30 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+  const menuButton = document.querySelector('.humberger-menu');
+  const menu = document.querySelector('.menu');
+
+  menuButton.addEventListener('click', function() {
+    menu.classList.toggle('active');
+  });
+
+  const navLinks = document.querySelectorAll('.menu a');
+
+  navLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+
+      targetElement.scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+});
+
 anime({
   targets: '.underline-link',
   translateX: 250,
