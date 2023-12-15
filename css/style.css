@@ -1009,7 +1009,7 @@ footer {
 }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 360px) {
   html, body, .wrapper {
     overflow-x: hidden;
     width: 100%;
