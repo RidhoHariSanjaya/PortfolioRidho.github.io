@@ -1064,4 +1064,8 @@ footer {
 #statistik > .wrapper > div > small {
   font-size: 0.5rem;
 }
+
+.footer-content {
+  font-size: 7px;
+}
 }
