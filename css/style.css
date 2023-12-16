@@ -987,6 +987,10 @@ footer {
     font-size: 1.8rem;
   }
 
+  #about > .wrapper > .pict > img {
+    border: 2px solid #fde092;
+  }
+
   #contact > .wrapper > h4 {
     font-size: 1.8rem
   }
@@ -1006,42 +1010,6 @@ footer {
 .sosmed > ul > li {
   margin-right: 0;
   margin-bottom: 2px;
-}
-}
-
-@media only screen and (max-width: 360px) {
-  html, body, .wrapper {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
-  .header-jumbotron > h4 {
-    font-size: 1.2rem;
-  }
-  
-  .header-jumbotron > h5 {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-  
-  .header-jumbotron > p {
-    font-size: 0.5rem;
-  }
-
-  #contact > .wrapper > h4 {
-    font-size: 1.8rem
-  }
-
-  #contact > .wrapper > p {
-  font-size: 0.7rem;
-}
-
-  #contact > .message > h4 {
-  font-size: 1.8rem;
-}
-
-  #about > .wrapper > .pict > img {
-  border: 2px solid #fde092;
 }
 
 .footer-content {
