@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 anime({
   targets: '.underline-link',
-  translateX: 250,
+  translateX: 500,
   autoplay: true,
   easing: 'easeInOutSine'
 });
