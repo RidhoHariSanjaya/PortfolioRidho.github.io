@@ -49,3 +49,13 @@ anime({
   autoplay: true,
   easing: 'easeInOutSine'
 });
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzIyb1ouWooGQOucALsJosRXbU1CnjVVJowkIMd74chOm8M2ogi7KU5tryiQIadA4s/exec';
+const form = document.forms['ridho-form-contact'];
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => console.log('Success!', response))
+    .catch(error => console.error('Error!', error.message));
+});
