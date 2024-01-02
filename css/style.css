@@ -304,8 +304,7 @@ header {
 
 #about > .wrapper > .pict,
 #about > .wrapper > .desc {
-  width: 90%;
-  box-sizing: border-box; 
+  width: 90%; 
 }
 
 #about > .wrapper > .pict {
@@ -319,12 +318,9 @@ header {
 }
  
 #about > .wrapper > .desc {
-  width: 70%;
   margin: 105px auto;
   font-family: grotes;
-  background-color: azure;
-  color: #3d7141;
-  border-radius: 10px;
+  color: azure;
 }
 
 #about > .wrapper > .desc > p {
