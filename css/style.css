@@ -651,7 +651,7 @@ footer {
 }
 
 .header-jumbotron > h5 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 4rem;
 }
 
@@ -788,6 +788,7 @@ footer {
     overflow-x: hidden;
     width: 100%;
   }
+  
   .menu {
     display: none;
   } 
@@ -816,7 +817,7 @@ footer {
   }
   
   .header-jumbotron > h5 {
-    font-size: 2.7rem;
+    font-size: 2.6rem;
     line-height: 3.5rem;
   }
   
@@ -921,8 +922,8 @@ footer {
   }
   
   .header-jumbotron > h5 {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.9rem;
+    line-height: 2rem;
   }
   
   .header-jumbotron > p {
