@@ -877,21 +877,21 @@ footer {
 }
 
 #about > .wrapper > .desc {
-  width: 70%;
+  width: 98%;
   font-family: grotes;
   border-radius: 10px;
 }
 
 #about > .wrapper > .pict > img {
   max-width: 100%;
-  border: 2px solid black;
+  border: 2px solid #fde092;
   border-radius: 50%;
 }
 
 #about > .wrapper > .desc > p {
   margin: 5px;
   padding: 10px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 #contact > .wrapper > p {
@@ -899,6 +899,7 @@ footer {
 }
   .sosmed > ul {
     width: 100%;
+    font-size: 15px;
   }
 
   .sosmed > ul > li {
@@ -955,7 +956,7 @@ footer {
   }
 
   #about > .wrapper > .desc {
-    width: 90%;
+    width: 98%;
     border-radius: 10px;
   }
 
@@ -1004,6 +1005,7 @@ footer {
 
 .sosmed > ul {
   width: 100%;
+  font-size: 13px;
 }
 
 .sosmed > ul > li {
