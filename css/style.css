@@ -803,6 +803,10 @@ footer {
     width: 100%;
   }
 
+  .wrapper {
+    padding: 0px 0px 0px 0px;
+  }
+
   .menu {
     display: none;
   }
@@ -812,12 +816,7 @@ footer {
   }
 
   .tampil>ul {
-    flex-direction: column;
-    background-color: #AAC8A7;
-    width: 100%;
-    position: fixed;
-    top: 80px;
-    left: 0;
+    top: 57px;
   }
 
   .tampil>ul>li {
@@ -934,6 +933,10 @@ footer {
 
   .wrapper {
     padding: 0px 0px 0px 0px;
+  }
+
+  .tampil>ul {
+    top: 58px;
   }
 
   .header-jumbotron {
