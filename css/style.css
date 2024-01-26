@@ -17,8 +17,9 @@
   font-family: grotes;
   src: url(font/AlteHaasGroteskBold.ttf);
 }
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap');
 
 html,
 body {
@@ -27,6 +28,7 @@ body {
   font-size: 16px;
   font-family: Sunday Lemon;
 }
+
 /*
 *Start Menu
 */
@@ -44,14 +46,14 @@ nav {
   padding: 10px 0px 10px 0px;
 }
 
-nav > .wrapper {
+nav>.wrapper {
   display: flex;
   justify-content: space-between;
   font-size: 1.2rem;
   align-items: center;
 }
 
-.menu > ul > li > a:hover {
+.menu>ul>li>a:hover {
   color: #fde092;
 }
 
@@ -59,7 +61,7 @@ nav > .wrapper {
   width: 40%;
 }
 
-.menu > ul {
+.menu>ul {
   display: flex;
   list-style-type: none;
   margin: 0px;
@@ -67,7 +69,7 @@ nav > .wrapper {
   justify-content: space-between;
 }
 
-.menu > ul > li > a {
+.menu>ul>li>a {
   text-decoration: none;
   color: azure;
   font-family: grotes;
@@ -78,11 +80,11 @@ nav > .wrapper {
   text-align: center;
 }
 
-.logo > img {
+.logo>img {
   height: 55px;
 }
 
-/*Akhir Menu*/  
+/*Akhir Menu*/
 
 /*Awal Humberger Menu */
 button.humberger-menu {
@@ -94,14 +96,15 @@ button.humberger-menu {
   max-width: 100%;
 }
 
-button.humberger-menu > i {
+button.humberger-menu>i {
   color: azure;
   font-size: 1.5rem;
 }
 
-button.humberger-menu > i.icon-close {
+button.humberger-menu>i.icon-close {
   display: none;
 }
+
 /*Akhir Humberger Menu */
 
 /* Awal Hero */
@@ -139,7 +142,7 @@ header {
   text-align: center;
 }
 
-.header-jumbotron > h4 {
+.header-jumbotron>h4 {
   color: #fde092;
   font-size: 3rem;
   font-family: Sunday Lemon;
@@ -147,7 +150,7 @@ header {
   padding: 0;
 }
 
-.header-jumbotron > h5 {
+.header-jumbotron>h5 {
   color: azure;
   margin: 0;
   padding: 5px;
@@ -155,12 +158,13 @@ header {
   line-height: 4rem;
 }
 
-.header-jumbotron > p {
+.header-jumbotron>p {
   padding: 5px;
   margin: 0px 5px 0px 5px;
   color: azure;
   font-family: 'Inter', sans-serif;
 }
+
 /* Akhir Hero */
 
 /* statistik */
@@ -169,7 +173,7 @@ header {
   color: #fff;
 }
 
-#statistik > .wrapper {
+#statistik>.wrapper {
   padding: 50px;
   width: 80%;
   display: flex;
@@ -177,25 +181,26 @@ header {
   text-align: center;
 }
 
-#statistik > .wrapper > div {
+#statistik>.wrapper>div {
   text-align: center;
 }
 
-#statistik > .wrapper > div > p {
+#statistik>.wrapper>div>p {
   font-size: 3rem;
   margin: 0;
   padding: 0;
 }
 
-#statistik > .wrapper > div > p > i {
+#statistik>.wrapper>div>p>i {
   margin-right: 10px;
   font-size: 3rem;
 }
 
-#statistik > .wrapper > div > p > small {
+#statistik>.wrapper>div>p>small {
   font-size: 1.5rem;
-  font-family: grotes ;
+  font-family: grotes;
 }
+
 /* Akhir Statistik */
 
 /* Awal Skills */
@@ -206,11 +211,11 @@ header {
   padding-top: 3%;
 }
 
-#skills > .wrapper {
+#skills>.wrapper {
   padding: 50px 0 50px 0;
 }
 
-#skills > .wrapper > h4 {
+#skills>.wrapper>h4 {
   text-align: center;
   font-size: 2.8rem;
   text-shadow: 0 0 2px black;
@@ -218,7 +223,7 @@ header {
   padding: 0;
 }
 
-#skills > .wrapper > h4 > span {
+#skills>.wrapper>h4>span {
   color: #fde092;
 }
 
@@ -231,7 +236,7 @@ header {
 
 .bahasa div {
   box-sizing: border-box;
-  position: relative; 
+  position: relative;
   text-align: center;
   background-color: #739072;
   background-size: cover;
@@ -255,7 +260,7 @@ header {
 
 .bahasa div:hover img {
   filter: grayscale(0%);
-} 
+}
 
 .bahasa .prog {
   text-align: center;
@@ -279,22 +284,23 @@ header {
   padding-top: 3%;
 }
 
-#about > .wrapper {
+#about>.wrapper {
   padding: 50px 0 50px 0;
 }
 
-#about > .wrapper > h4 {
+#about>.wrapper>h4 {
   text-align: center;
   text-shadow: 0 0 1px black;
   font-size: 2.8rem;
   margin-top: 30px;
   padding: 0;
 }
-#about > .wrapper > h4 > span {
+
+#about>.wrapper>h4>span {
   color: #ffff;
 }
 
-#about > .wrapper > div {
+#about>.wrapper>div {
   display: flex;
   width: 70%;
   margin: auto;
@@ -302,48 +308,49 @@ header {
   align-items: center;
 }
 
-#about > .wrapper > .pict,
-#about > .wrapper > .desc {
+#about>.wrapper>.pict,
+#about>.wrapper>.desc {
   width: 90%;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
-#about > .wrapper > .pict {
+#about>.wrapper>.pict {
   width: 25%;
   float: left;
   margin-top: -30px;
 }
 
-#about > .wrapper > .pict > img {
+#about>.wrapper>.pict>img {
   max-width: 100%;
 }
- 
-#about > .wrapper > .desc {
+
+#about>.wrapper>.desc {
   width: 70%;
   margin: 105px auto;
   font-family: grotes;
   color: azure;
 }
 
-#about > .wrapper > .desc > p {
-margin: 5px;
-padding: 15px;
+#about>.wrapper>.desc>p {
+  margin: 5px;
+  padding: 15px;
 }
+
 /*Akhir About*/
 
 /*Awal Contact*/
 #contact {
-  background-color:  #A0C49D  ;
+  background-color: #A0C49D;
   flex-direction: column;
   padding-bottom: 50px;
   padding-top: 6.5%;
 }
 
-#contact > .wrapper {
+#contact>.wrapper {
   padding: 50px 0px 5px 0px;
 }
 
-#contact > .wrapper > h4  {
+#contact>.wrapper>h4 {
   text-align: center;
   text-shadow: 0 0 1px black;
   font-size: 2.8rem;
@@ -353,7 +360,7 @@ padding: 15px;
   padding: 0;
 }
 
-#contact > .wrapper > p {
+#contact>.wrapper>p {
   color: #fff;
   text-align: center;
   font-family: grotes;
@@ -369,7 +376,7 @@ padding: 15px;
   font-family: grotes;
 }
 
-.sosmed > ul > li {
+.sosmed>ul>li {
   margin-right: 350px;
 }
 
@@ -378,7 +385,7 @@ a {
   color: #ffff;
 }
 
-#contact > .message > h4  {
+#contact>.message>h4 {
   text-align: center;
   text-shadow: 0 0 1px black;
   font-size: 2.8rem;
@@ -412,64 +419,65 @@ a {
   transform-origin: bottom left;
 }
 
- form {
-      max-width: 700px;
-      margin: auto;
-      padding: 20px;
-      color: #ffff;
-      font-family: grotes;
-      font-weight: bold;
-    }
+form {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  color: #ffff;
+  font-family: grotes;
+  font-weight: bold;
+}
 
-    label {
-      display: block;
-      margin-bottom: 8px;
-    }
+label {
+  display: block;
+  margin-bottom: 8px;
+}
 
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      box-sizing: border-box;
-    }
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
 
-    .form-group {
-      display: flex;
-      justify-content: space-between;
-    }
+.form-group {
+  display: flex;
+  justify-content: space-between;
+}
 
-    .form-group .left {
-      width: 48%;
-    }
+.form-group .left {
+  width: 48%;
+}
 
-    .form-group .right {
-      width: 48%;
-    }
+.form-group .right {
+  width: 48%;
+}
 
-    .custom-placeholder {
-      color: black;
-      font-family: grotes;
-    }
+.custom-placeholder {
+  color: black;
+  font-family: grotes;
+}
 
-    textarea {
-      height: 100px;
-    }
+textarea {
+  height: 100px;
+}
 
-    button {
-      background-color: #86A789;
-      font-family: Grotes;
-      color: #fff;
-      padding: 10px 15px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+button {
+  background-color: #86A789;
+  font-family: Grotes;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-    button:hover {
-      background-color: #618264;
-    } 
+button:hover {
+  background-color: #618264;
+}
+
 /*Akhir Contact*/
 
 /*Awal Footer*/
@@ -489,6 +497,7 @@ footer {
   font-family: grotes;
   color: #ffff;
 }
+
 /*Akhir Footer*/
 
 /*1024, 900, 768, 600, 450*/
@@ -500,12 +509,12 @@ footer {
     width: 100%;
   }
 
-   nav {
+  nav {
     position: fixed;
     width: 100%;
   }
 
-  .menu > ul > li > a {
+  .menu>ul>li>a {
     margin-right: 30px;
   }
 
@@ -513,39 +522,39 @@ footer {
     margin-left: 25px;
   }
 
-  .logo > img {
+  .logo>img {
     height: 60px;
-}
+  }
 
-  #statistik > .wrapper {
-  padding: 50px;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-}
+  #statistik>.wrapper {
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
 
-#statistik > .wrapper > div > p {
-  font-size: 2.5rem;
-  margin: 0;
-  padding: 0;
-}
+  #statistik>.wrapper>div>p {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+  }
 
-#statistik > .wrapper > div > p > i {
-  margin-right: 10px;
-  font-size: 2.5rem;
-}
+  #statistik>.wrapper>div>p>i {
+    margin-right: 10px;
+    font-size: 2.5rem;
+  }
 
-#statistik > .wrapper > div > p > small {
-  font-size: 2rem;
-  font-family: grotes ;
-}
+  #statistik>.wrapper>div>p>small {
+    font-size: 2rem;
+    font-family: grotes;
+  }
 
-#about > .wrapper > .pict {
-  width: 20%;
-  float: left;
-  margin: 0px 20px 35px;
-}
+  #about>.wrapper>.pict {
+    width: 20%;
+    float: left;
+    margin: 0px 20px 35px;
+  }
 }
 
 /* 900px */
@@ -555,48 +564,48 @@ footer {
     width: 100%;
   }
 
-   nav {
+  nav {
     position: fixed;
     width: 100%;
   }
-  
+
   .menu {
     width: 50%;
   }
 
-  #statistik > .wrapper > div > p {
+  #statistik>.wrapper>div>p {
     font-size: 2rem;
     margin: 0;
     padding: 0;
   }
-  
-  #statistik > .wrapper > div > p > i {
+
+  #statistik>.wrapper>div>p>i {
     margin-right: 10px;
     font-size: 2rem;
   }
-  
-  #statistik > .wrapper > div > p > small {
+
+  #statistik>.wrapper>div>p>small {
     font-size: 1.5rem;
   }
 
-  #about > .wrapper > .desc {
+  #about>.wrapper>.desc {
     margin: 120px auto;
     padding: 1px;
     max-width: 600px;
-}
-  
-  #about > .wrapper > .desc > p {
-  margin: 5px;
-  padding: 15px;
-  font-size: 15px;
-  text-align: center;
   }
 
-  #about > .wrapper > .pict {
-  width: 20%;
-  float: left;
-  margin: 35px 20px 0px;
-}
+  #about>.wrapper>.desc>p {
+    margin: 5px;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #about>.wrapper>.pict {
+    width: 20%;
+    float: left;
+    margin: 35px 20px 0px;
+  }
 }
 
 /* 768px */
@@ -606,7 +615,7 @@ footer {
     width: 100%;
   }
 
-   nav {
+  nav {
     position: fixed;
     width: 100%;
   }
@@ -615,23 +624,23 @@ footer {
     width: 60%;
   }
 
-  #statistik > .wrapper > div > p {
-    font-size:  2rem;
+  #statistik>.wrapper>div>p {
+    font-size: 2rem;
     margin: -10px;
     padding: 5px;
   }
 
-  #about > .wrapper > .desc {
+  #about>.wrapper>.desc {
     margin: 120px auto;
     padding: 1px;
     max-width: 700px;
-}
+  }
 
-#about > .wrapper > .pict {
-  width: 26%;
-  float: left;
-  margin: 25px -8px;
-}
+  #about>.wrapper>.pict {
+    width: 26%;
+    float: left;
+    margin: 25px -8px;
+  }
 }
 
 /* 600px */
@@ -641,35 +650,38 @@ footer {
     width: 100%;
   }
 
-   nav {
+  nav {
     position: fixed;
     width: 100%;
   }
 
-.header-jumbotron > h4 {
-  font-size: 2rem;
-}
+  .header-jumbotron>h4 {
+    font-size: 2rem;
+  }
 
-.header-jumbotron > h5 {
-  font-size: 3.5rem;
-  line-height: 4rem;
-}
+  .header-jumbotron>h5 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
 
-.header-jumbotron > p {
-  font-size: 0.8rem;
-}
+  .header-jumbotron>p {
+    font-size: 0.8rem;
+  }
 
   button.humberger-menu {
     display: inline;
     margin-right: 30px;
   }
+
   .menu {
     display: none;
-  } 
+  }
+
   .tampil {
     display: inline;
   }
-  .tampil > ul {
+
+  .tampil>ul {
     flex-direction: column;
     background-color: #AAC8A7;
     width: 100%;
@@ -677,11 +689,13 @@ footer {
     top: 80px;
     left: 0;
   }
-  .tampil > ul > li {
+
+  .tampil>ul>li {
     padding: 10px 20px 10px 20px;
     margin-right: 0;
   }
-  .humberger-menu  {
+
+  .humberger-menu {
     border: none;
     background: none;
     max-width: 100%;
@@ -689,97 +703,97 @@ footer {
     overflow-x: hidden;
   }
 
-#statistik > .wrapper {
-  padding: 40px;
-  width: 87%;
-}
+  #statistik>.wrapper {
+    padding: 40px;
+    width: 87%;
+  }
 
-#statistik > .wrapper > div > p {
-  font-size: 1.5rem;
-  margin: 0;
-  padding: 0;
-}
+  #statistik>.wrapper>div>p {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
 
-#statistik > .wrapper > div > p > i {
-  margin-right: 5px;
-  font-size: 1.5rem;
-}
+  #statistik>.wrapper>div>p>i {
+    margin-right: 5px;
+    font-size: 1.5rem;
+  }
 
-#statistik > .wrapper > div > p > small {
-  font-size: 1rem;
-}
+  #statistik>.wrapper>div>p>small {
+    font-size: 1rem;
+  }
 
-#about > .wrapper > h4 {
-  font-size: 2rem;
-}
+  #about>.wrapper>h4 {
+    font-size: 2rem;
+  }
 
-.bahasa {
-  width: 100%;
-}
+  .bahasa {
+    width: 100%;
+  }
 
-.bahasa div {
-  border-radius: 10px;
-  margin: 20px;
-  padding: 20px;
-  width: calc(50% - 40px);
-  transition: background-color 0.3s;
-}
+  .bahasa div {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: calc(50% - 40px);
+    transition: background-color 0.3s;
+  }
 
-.bahasa .prog {
-  font-size: 20px;
-  margin: 10px;
-  padding-top: 5px;
-}
+  .bahasa .prog {
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 5px;
+  }
 
-#about > .wrapper > .pict,
-#about > .wrapper > .desc {
-  width: 100%;
-  box-sizing: border-box;
-}
+  #about>.wrapper>.pict,
+  #about>.wrapper>.desc {
+    width: 100%;
+    box-sizing: border-box;
+  }
 
-#about > .wrapper > .pict {
-  margin-top: 30px;
-  margin-left: 38%;
-}
+  #about>.wrapper>.pict {
+    margin-top: 30px;
+    margin-left: 38%;
+  }
 
-#about > .wrapper > .pict > img {
-  max-width: 100%;
-  width: 25%;
-}
+  #about>.wrapper>.pict>img {
+    max-width: 100%;
+    width: 25%;
+  }
 
-#about > .wrapper > .desc {
-  width: 70%;
-  font-family: grotes;
-  border-radius: 10px;
-}
+  #about>.wrapper>.desc {
+    width: 70%;
+    font-family: grotes;
+    border-radius: 10px;
+  }
 
-#about > .wrapper > .desc > p {
-  margin: 5px;
-  padding: 10px;
-  font-size: 13px;
-}
+  #about>.wrapper>.desc>p {
+    margin: 5px;
+    padding: 10px;
+    font-size: 13px;
+  }
 
-#contact > .wrapper > h4 {
-  font-size: 2rem;
-}
+  #contact>.wrapper>h4 {
+    font-size: 2rem;
+  }
 
-#contact > .wrapper > p {
-  font-size: 0.9rem;
-}
+  #contact>.wrapper>p {
+    font-size: 0.9rem;
+  }
 
-.sosmed {
-  font-size: 15px;
-}
+  .sosmed {
+    font-size: 15px;
+  }
 
-.sosmed > ul > li {
-  margin-right: 300px;
-}
+  .sosmed>ul>li {
+    margin-right: 300px;
+  }
 
-#contact > .message > h4  {
-  font-size: 2rem;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
+  #contact>.message>h4 {
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }
 
 /* 450px */
@@ -788,14 +802,16 @@ footer {
     overflow-x: hidden;
     width: 100%;
   }
-  
+
   .menu {
     display: none;
-  } 
+  }
+
   .tampil {
     display: inline;
   }
-  .tampil > ul {
+
+  .tampil>ul {
     flex-direction: column;
     background-color: #AAC8A7;
     width: 100%;
@@ -803,106 +819,108 @@ footer {
     top: 80px;
     left: 0;
   }
-  .tampil > ul > li {
+
+  .tampil>ul>li {
     padding: 10px 20px 10px 20px;
     margin-right: 0;
   }
 
   .header-jumbotron {
     top: 50px;
-}
+  }
 
-  .header-jumbotron > h4 {
+  .header-jumbotron>h4 {
     font-size: 1.5rem;
   }
-  
-  .header-jumbotron > h5 {
+
+  .header-jumbotron>h5 {
     font-size: 2.6rem;
     line-height: 3.5rem;
   }
-  
-  .header-jumbotron > p {
+
+  .header-jumbotron>p {
     font-size: 0.5rem;
   }
 
-  #statistik > .wrapper {
-  padding: 30px;
-  width: 87%;
-}
+  #statistik>.wrapper {
+    padding: 30px;
+    width: 87%;
+  }
 
-  #statistik > .wrapper > div > p {
-  font-size: 1.1rem;
-}
+  #statistik>.wrapper>div>p {
+    font-size: 1.1rem;
+  }
 
-#statistik > .wrapper > div > p > i {
-  margin-right: 5px;
-  font-size: 1.1rem;
-}
+  #statistik>.wrapper>div>p>i {
+    margin-right: 5px;
+    font-size: 1.1rem;
+  }
 
-#statistik > .wrapper > div > p > small {
-  font-size: 0.1rem;
-}
+  #statistik>.wrapper>div>p>small {
+    font-size: 0.1rem;
+  }
 
-#skills > .wrapper > h4 {
-  font-size: 2rem;
-}
+  #skills>.wrapper>h4 {
+    font-size: 2rem;
+  }
 
-.bahasa div {
+  .bahasa div {
     width: 100%;
   }
 
-.bahasa div {
-  margin: 50px;
-  margin-bottom: -20px;
-  padding: 15px;
-}
+  .bahasa div {
+    margin: 50px;
+    margin-bottom: -20px;
+    padding: 15px;
+  }
 
-.bahasa .prog {
-  font-size: 20px;
-  margin: 10px;
-}
+  .bahasa .prog {
+    font-size: 20px;
+    margin: 10px;
+  }
 
-#about > .wrapper > h4 {
-  font-size: 2rem;
-}
+  #about>.wrapper>h4 {
+    font-size: 2rem;
+  }
 
-#about > .wrapper > .pict {
-  margin-top: 30px;
-  margin-left: 35%;
-}
+  #about>.wrapper>.pict {
+    margin-top: 30px;
+    margin-left: 35%;
+  }
 
-#about > .wrapper > .pict > img {
-  max-width: 100%;
-  width: 30%;
-}
+  #about>.wrapper>.pict>img {
+    max-width: 100%;
+    width: 30%;
+  }
 
-#about > .wrapper > .desc {
-  width: 98%;
-  font-family: grotes;
-  border-radius: 10px;
-}
+  #about>.wrapper>.desc {
+    width: 98%;
+    font-family: grotes;
+    border-radius: 10px;
+  }
 
-#about > .wrapper > .pict > img {
-  max-width: 100%;
-  border: 2px solid #fde092;
-  border-radius: 50%;
-}
+  #about>.wrapper>.pict>img {
+    max-width: 100%;
+    border: 2px solid #fde092;
+    border-radius: 50%;
+  }
 
-#about > .wrapper > .desc > p {
-  margin: 5px;
-  padding: 10px;
-  font-size: 13px;
-}
+  #about>.wrapper>.desc>p {
+    margin: 5px;
+    padding: 10px;
+    font-size: 13px;
+  }
 
-#contact > .wrapper > p {
-  font-size: 0.7rem;
-}
-  .sosmed > ul {
+  #contact>.wrapper>p {
+    font-size: 0.7rem;
+  }
+
+  .sosmed>ul {
     width: 100%;
     font-size: 15px;
   }
 
-  .sosmed > ul > li {
+  .sosmed>ul>li {
     margin-right: 0;
     margin-bottom: 10px;
   }
@@ -914,66 +932,70 @@ footer {
     width: 100%;
   }
 
+  .wrapper {
+    padding: 0px 0px 0px 0px;
+  }
+
   .header-jumbotron {
     top: 60px;
-}
+  }
 
-  .header-jumbotron > h4 {
+  .header-jumbotron>h4 {
     font-size: 1.2rem;
   }
-  
-  .header-jumbotron > h5 {
+
+  .header-jumbotron>h5 {
     font-size: 1.9rem;
     line-height: 2rem;
   }
-  
-  .header-jumbotron > p {
+
+  .header-jumbotron>p {
     font-size: 0.5rem;
   }
 
-  #statistik > .wrapper {
+  #statistik>.wrapper {
     padding: 20px;
     width: 90%;
   }
-  
-    #statistik > .wrapper > div > p {
+
+  #statistik>.wrapper>div>p {
     font-size: 1rem;
   }
-  
-  #statistik > .wrapper > div > p > i {
+
+  #statistik>.wrapper>div>p>i {
     margin-right: 2px;
     font-size: 1rem;
   }
-  
-  #statistik > .wrapper > div > small {
+
+  #statistik>.wrapper>div>small {
     font-size: 0.6rem;
   }
 
-  #about > .wrapper > .pict > img {
+  #about>.wrapper>.pict>img {
     max-width: 100%;
     border: 2px solid white;
     border-radius: 50%;
   }
 
-  #about > .wrapper > .desc {
+  #about>.wrapper>.desc {
     width: 98%;
     border-radius: 10px;
   }
 
-  #skills > .wrapper > h4 {
+  #skills>.wrapper>h4 {
     font-size: 1.8rem;
   }
-  
+
   .bahasa div {
-      width: 100%;
-    }
-  
+    width: 100%;
+  }
+
   .bahasa div {
     margin: 50px;
     margin-bottom: -20px;
     padding: 15px;
   }
-  
+
   .bahasa .prog {
     font-size: 13px;
     margin: 10px;
@@ -983,37 +1005,37 @@ footer {
     width: 5rem;
   }
 
-  #about > .wrapper > h4 {
+  #about>.wrapper>h4 {
     font-size: 1.8rem;
   }
 
-  #about > .wrapper > .pict > img {
+  #about>.wrapper>.pict>img {
     border: 2px solid #fde092;
   }
 
-  #contact > .wrapper > h4 {
+  #contact>.wrapper>h4 {
     font-size: 1.8rem
   }
 
-  #contact > .wrapper > p {
-  font-size: 0.9rem;
-}
+  #contact>.wrapper>p {
+    font-size: 0.9rem;
+  }
 
-#contact > .message > h4 {
-  font-size: 1.8rem;
-}
+  #contact>.message>h4 {
+    font-size: 1.8rem;
+  }
 
-.sosmed > ul {
-  width: 100%;
-  font-size: 13px;
-}
+  .sosmed>ul {
+    width: 100%;
+    font-size: 13px;
+  }
 
-.sosmed > ul > li {
-  margin-right: 0;
-  margin-bottom: 2px;
-}
+  .sosmed>ul>li {
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
 
-.footer-content {
-  font-size: 7px;
-}
+  .footer-content {
+    font-size: 7px;
+  }
 }
